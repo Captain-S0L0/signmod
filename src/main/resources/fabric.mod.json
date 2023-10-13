@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "signmod",
+  "version": "${version}",
+  "name": "SignMod",
+  "description": "Tools for signs in Minecraft 1.8.0",
+  "authors": [
+    "Captain_S0L0"
+  ],
+  "contact": {
+    "sources": "https://github.com/Captain-S0L0/signmod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.terriblefriends.signmod.SignMod"
+    ]
+  },
+  "mixins": [
+    "signmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
