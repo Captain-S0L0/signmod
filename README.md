@@ -1,4 +1,4 @@
-# BookMod
+# SignMod
 
 A mod providing tools for modifying signs in Minecraft version 1.8.
 
